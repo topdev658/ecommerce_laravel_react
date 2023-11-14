@@ -1,0 +1,38 @@
+@import "button.css";
+@import "card.css";
+@import "typography.css";
+
+/* ========= ALL FONTS ========= */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+:root {
+  --primary-app-color: #f57224;
+  --secondary-app-color: #0f146d;
+}
+.App {
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* overflow-x: hidden; */
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Tahoma, Arial, sans-serif;
+  background: #f5f5f5;
+}
+/* ========= Google Translate Api ========= */
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+body {
+  top: 0px !important;
+}
+.custom-links {
+  text-decoration: none;
+  color: #212121;
+}

@@ -1,0 +1,89 @@
+.auth-wrapper {
+  background: #eff0f5;
+  font-family: "Roboto";
+}
+.auth-header-title {
+  font-size: 22px;
+  font-family: "Roboto";
+  line-height: 26px;
+  text-align: start;
+  letter-spacing: normal;
+  color: #424242;
+  float: left;
+}
+
+.custom-card {
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0.6rem;
+}
+
+.user-name {
+  color: #424242;
+  font-size: 12px;
+}
+
+.verified-button {
+  background-color: #4caf50 !important;
+  color: #fff !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  padding-inline: 5px !important;
+  padding-block: 2.5px !important;
+  border: none !important;
+  border-radius: 25px !important;
+}
+.verified-button:hover {
+  background-color: #4caf50 !important;
+  opacity: 0.9 !important;
+}
+.mypurchase-button {
+  background-color: var(--primary-app-color) !important;
+  color: #fff !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  padding-inline: 5px !important;
+  padding-block: 2.5px !important;
+  border: none !important;
+  border-radius: 25px !important;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+.mypurchase-button:hover {
+  background-color: var(--primary-app-color) !important;
+  opacity: 0.9 !important;
+}
+
+.dashboard-info {
+  color: #424242 !important;
+  letter-spacing: -0.15px !important;
+}
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .auth-header-title {
+    float: none !important;
+  }
+  .custom-card {
+    margin-top: 0px !important;
+  }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+/* // XX-Large devices (larger desktops) */
+/* // No media query since the xxl breakpoint has no upper bound on its width */
